@@ -1,0 +1,56 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  background: #ff9800;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Content section */
+.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 20px;
+}
